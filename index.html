@@ -11,13 +11,11 @@
       content="Vamsi Pusapati — Full-Stack Developer with experience building web applications using React.js, JavaScript, Node.js, Express.js, Java, Spring Boot and REST APIs."
     />
 
-    <meta name="author" content="Vamsi Pusapati" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
@@ -25,39 +23,28 @@
   </head>
 
   <body>
-    <!-- ================= NAVIGATION ================= -->
+    <!-- ==================== NAVIGATION ==================== -->
 
     <header class="nav" id="nav">
       <div class="wrap nav-inner">
-        <a href="#top" class="brand">
-          <span>VP</span>
-          <small>Full-Stack</small>
-        </a>
+        <a href="#top" class="mark"> 
 
-        <nav class="nav-links">
+        <nav>
           <a href="#about">About</a>
           <a href="#stack">Stack</a>
           <a href="#work">Work</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
+          <a href="#path">Experience</a>
+          <a class="cta-link" href="#contact">Contact</a>
         </nav>
-
-        <a
-          class="nav-github"
-          href="https://github.com/PusapatiVamsi"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub ↗
-        </a>
       </div>
     </header>
 
     <main id="top">
-      <!-- ================= HERO ================= -->
+      <!-- ==================== HERO ==================== -->
 
       <section class="hero">
         <canvas id="scene"></canvas>
+
         <div class="hero-overlay"></div>
 
         <div class="hero-in wrap">
@@ -96,296 +83,300 @@
           </div>
         </div>
 
-        <p class="scroll-cue">scroll ↓</p>
+        <p class="scroll-cue">scroll</p>
       </section>
 
-      <!-- ================= ABOUT ================= -->
+      <!-- ==================== ABOUT ==================== -->
 
-      <section class="section" id="about">
-        <div class="wrap">
-          <div class="section-head reveal">
-            <span class="section-number">01</span>
-            <h2>About</h2>
+      <section id="about" class="wrap">
+        <div class="section-head rv">
+          <div>
+            <span class="num">01</span>
+            <h2>About me</h2>
           </div>
 
-          <div class="about-grid">
-            <div class="about-main reveal">
-              <p class="large-text">
-                I’m a Full-Stack Developer focused on building practical,
-                reliable and scalable web applications.
-              </p>
+          <p class="lede">
+            I build applications by understanding the complete flow — from the
+            user's screen to the server and database.
+          </p>
+        </div>
 
-              <p>
-                My work spans frontend development with React.js and JavaScript,
-                backend development with Node.js and Express.js, and Java
-                development using Spring Boot.
-              </p>
+        <div class="about-grid">
+          <div class="rv">
+            <p class="lead">
+              Hi, I'm Vamsi — a Full-Stack Developer with around
+              <strong>3+ years of hands-on experience</strong>.
+            </p>
 
-              <p>
-                I enjoy working across the complete application flow — designing
-                interfaces, creating REST APIs, integrating databases, debugging
-                issues and improving application architecture.
-              </p>
+            <p>
+              My core technical skills include JavaScript, React.js, Node.js,
+              Express.js, REST APIs and database integration. I enjoy working
+              across both frontend and backend because it allows me to
+              understand how the complete application works.
+            </p>
+
+            <p>
+              In my experience at Zeminent, I've worked on an
+              <strong>education platform</strong>, developing and improving
+              features across the application. I've worked with React.js and
+              JavaScript on the frontend and Node.js with Express.js on the
+              backend.
+            </p>
+
+            <p>
+              I focus on reusable components, application state, API
+              integration, responsive interfaces, request validation,
+              authentication, error handling and database connectivity.
+            </p>
+
+            <p>
+              When I build a feature, I don't look at frontend and backend as
+              completely separate areas. I try to understand the full journey —
+              how the user interacts with the UI, how the request reaches the
+              backend, how the data is processed and stored, and how the
+              response comes back to the user.
+            </p>
+          </div>
+
+          <div class="rv rv2 about-stats">
+            <div class="stat">
+              <b>3+</b>
+              <span>years of hands-on development experience</span>
             </div>
 
-            <div class="about-side reveal">
-              <div class="info-item">
-                <span>Location</span>
-                <strong>India</strong>
-              </div>
+            <div class="stat">
+              <b>FULL</b>
+              <span>frontend to backend application workflow</span>
+            </div>
 
-              <div class="info-item">
-                <span>Focus</span>
-                <strong>Full-Stack Development</strong>
-              </div>
+            <div class="stat">
+              <b>JS</b>
+              <span>React, Node.js and Express.js ecosystem</span>
+            </div>
 
-              <div class="info-item">
-                <span>Frontend</span>
-                <strong>React.js · JavaScript</strong>
-              </div>
-
-              <div class="info-item">
-                <span>Backend</span>
-                <strong>Node.js · Express.js · Java</strong>
-              </div>
+            <div class="stat">
+              <b>API</b>
+              <span>REST API integration and backend services</span>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- ================= STACK ================= -->
+      <!-- ==================== STACK ==================== -->
 
-      <section class="section section-dark" id="stack">
-        <div class="wrap">
-          <div class="section-head reveal">
-            <span class="section-number">02</span>
-            <h2>Tech Stack</h2>
+      <section id="stack" class="wrap">
+        <div class="section-head rv">
+          <div>
+            <span class="num">02</span>
+            <h2>Tech stack</h2>
           </div>
 
-          <div class="filter-buttons reveal">
-            <button class="filter active" data-filter="all">All</button>
-
-            <button class="filter" data-filter="frontend">Frontend</button>
-
-            <button class="filter" data-filter="backend">Backend</button>
-
-            <button class="filter" data-filter="database">Database</button>
-
-            <button class="filter" data-filter="tools">Tools</button>
-          </div>
-
-          <div class="skills-grid" id="skills-grid"></div>
+          <p class="lede">
+            Technologies and tools I use while building complete web
+            applications.
+          </p>
         </div>
+
+        <div class="filters rv" id="filters">
+          <button data-layer="all" aria-pressed="true">Everything</button>
+
+          <button data-layer="frontend">Frontend</button>
+
+          <button data-layer="backend">Backend</button>
+
+          <button data-layer="database">Database</button>
+
+          <button data-layer="tools">Tools</button>
+        </div>
+
+        <div class="stack-grid rv rv3" id="stackGrid"></div>
       </section>
 
-      <!-- ================= WORK ================= -->
+      <!-- ==================== WORK ==================== -->
 
-      <section class="section" id="work">
-        <div class="wrap">
-          <div class="section-head reveal">
-            <span class="section-number">03</span>
-            <h2>Selected Work</h2>
+      <section id="work" class="wrap">
+        <div class="section-head rv">
+          <div>
+            <span class="num">03</span>
+            <h2>Work</h2>
           </div>
 
-          <div class="projects" id="projects"></div>
+          <p class="lede">
+            Projects and application work that represent my full-stack
+            development experience.
+          </p>
         </div>
+
+        <div id="projects" class="rv"></div>
       </section>
 
-      <!-- ================= EXPERIENCE ================= -->
+      <!-- ==================== EXPERIENCE ==================== -->
 
-      <section class="section section-dark" id="experience">
-        <div class="wrap">
-          <div class="section-head reveal">
-            <span class="section-number">04</span>
+      <section id="path" class="wrap">
+        <div class="section-head rv">
+          <div>
+            <span class="num">04</span>
             <h2>Experience</h2>
           </div>
 
-          <div class="timeline" id="timeline"></div>
+          <p class="lede">
+            My professional experience and development journey.
+          </p>
+        </div>
+
+        <div class="tl rv" id="pathList"></div>
+      </section>
+
+      <!-- ==================== DEVELOPMENT APPROACH ==================== -->
+
+      <section class="wrap approach-section">
+        <div class="section-head rv">
+          <div>
+            <span class="num">05</span>
+            <h2>How I work</h2>
+          </div>
+
+          <p class="lede">
+            My approach to building and solving software problems.
+          </p>
+        </div>
+
+        <div class="approach-grid">
+          <article class="approach-card rv">
+            <span>01</span>
+            <h3>Understand</h3>
+            <p>
+              I start by understanding the requirement, user flow, data involved
+              and the expected behaviour of the feature.
+            </p>
+          </article>
+
+          <article class="approach-card rv rv2">
+            <span>02</span>
+            <h3>Build</h3>
+            <p>
+              I break the requirement into reusable frontend components, backend
+              services and API flows that are easier to maintain.
+            </p>
+          </article>
+
+          <article class="approach-card rv rv3">
+            <span>03</span>
+            <h3>Debug</h3>
+            <p>
+              When something goes wrong, I focus on finding the root cause
+              instead of applying only a temporary fix.
+            </p>
+          </article>
+
+          <article class="approach-card rv rv4">
+            <span>04</span>
+            <h3>Improve</h3>
+            <p>
+              I look for opportunities to improve performance, maintainability,
+              usability and the overall application flow.
+            </p>
+          </article>
         </div>
       </section>
 
-      <!-- ================= APPROACH ================= -->
+      <!-- ==================== CONTACT ==================== -->
 
-      <section class="section" id="approach">
-        <div class="wrap">
-          <div class="section-head reveal">
-            <span class="section-number">05</span>
-            <h2>How I Work</h2>
-          </div>
+      <section id="contact" class="wrap contact-cta">
+        <div class="rv">
+          <span class="num">06</span>
 
-          <div class="approach-grid">
-            <article class="approach-card reveal">
-              <span>01</span>
-              <h3>Understand</h3>
-              <p>
-                Understand the requirement, user flow and technical constraints
-                before writing code.
-              </p>
-            </article>
+          <h2>
+            Let's build<br />
+            something.
+          </h2>
 
-            <article class="approach-card reveal">
-              <span>02</span>
-              <h3>Build</h3>
-              <p>
-                Build clean components, APIs and services with maintainability
-                and reusable architecture in mind.
-              </p>
-            </article>
-
-            <article class="approach-card reveal">
-              <span>03</span>
-              <h3>Test</h3>
-              <p>
-                Test APIs, validate inputs, debug issues and verify application
-                behaviour before delivery.
-              </p>
-            </article>
-
-            <article class="approach-card reveal">
-              <span>04</span>
-              <h3>Improve</h3>
-              <p>
-                Continuously improve performance, code quality, usability and
-                application reliability.
-              </p>
-            </article>
-          </div>
+          <p class="lede">
+            I'm looking for opportunities where I can use my full-stack
+            development experience, take ownership and continue growing as a
+            software engineer.
+          </p>
         </div>
-      </section>
 
-      <!-- ================= CONTACT ================= -->
+        <div class="contact-grid">
+          <div class="rv rv2">
+            <label for="nm">Name</label>
 
-      <section class="section contact-section" id="contact">
-        <div class="wrap">
-          <div class="section-head reveal">
-            <span class="section-number">06</span>
-            <h2>Contact</h2>
+            <input
+              id="nm"
+              type="text"
+              placeholder="Your name"
+              autocomplete="name"
+            />
+
+            <label for="em">Email</label>
+
+            <input
+              id="em"
+              type="email"
+              placeholder="your@email.com"
+              autocomplete="email"
+            />
+
+            <label for="ms">Message</label>
+
+            <textarea
+              id="ms"
+              placeholder="Tell me about the opportunity or project..."
+            ></textarea>
+
+            <button class="send" id="send" type="button">Send message</button>
+
+            <p class="resp" id="resp" aria-live="polite"></p>
           </div>
 
-          <div class="contact-grid">
-            <div class="contact-copy reveal">
-              <p class="large-text">
-                Have a project, opportunity or idea? Let’s talk.
-              </p>
+          <dl class="reach rv rv3">
+            <dt>GitHub</dt>
 
-              <p>
-                Send me a message using the form. Your message will be delivered
-                directly through the website.
-              </p>
-
-              <div class="contact-links">
-                <a
-                  href="https://github.com/PusapatiVamsi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub ↗
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/vamsipusapati56"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn ↗
-                </a>
-              </div>
-            </div>
-
-            <!-- FORM -->
-
-            <form
-              id="contact-form"
-              class="contact-form reveal"
-              action="https://formspree.io/f/xljdebwv"
-              method="POST"
-            >
-              <div class="field-row">
-                <div class="field">
-                  <label for="name"> Name </label>
-
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Your name"
-                    autocomplete="name"
-                    required
-                  />
-                </div>
-
-                <div class="field">
-                  <label for="email"> Email </label>
-
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="you@example.com"
-                    autocomplete="email"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div class="field">
-                <label for="subject"> Subject </label>
-
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="What would you like to discuss?"
-                  required
-                />
-              </div>
-
-              <div class="field">
-                <label for="message"> Message </label>
-
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="7"
-                  placeholder="Write your message..."
-                  required
-                ></textarea>
-              </div>
-
-              <input
-                type="hidden"
-                name="_subject"
-                value="New message from Vamsi Pusapati Portfolio"
-              />
-
-              <button
-                type="submit"
-                class="primary submit-button"
-                id="contact-submit"
+            <dd>
+              <a
+                href="https://github.com/PusapatiVamsi"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Send Message ↗
-              </button>
+                PusapatiVamsi ↗
+              </a>
+            </dd>
 
-              <p id="form-status" class="form-status" aria-live="polite"></p>
-            </form>
-          </div>
+            <dt>LinkedIn</dt>
+
+            <dd>
+              <a
+                href="https://www.linkedin.com/in/vamsipusapati56"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                vamsipusapati56 ↗
+              </a>
+            </dd>
+
+            <dt>Current workplace</dt>
+
+            <dd>
+              <a
+                href="https://zeminent.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Zeminent ↗
+              </a>
+            </dd>
+          </dl>
         </div>
       </section>
     </main>
 
-    <!-- ================= FOOTER ================= -->
+    <!-- ==================== FOOTER ==================== -->
 
-    <footer>
-      <div class="wrap footer-inner">
-        <div>
-          <strong>VP</strong>
-          <span>Full-Stack Developer</span>
-        </div>
+    <footer class="wrap">
+      <span> © 2026 Vamsi Pusapati </span>
 
-        <p>© 2026 Vamsi Pusapati. Built with HTML, CSS & JavaScript.</p>
-
-        <a href="#top"> Back to top ↑ </a>
-      </div>
+      <span> Full-Stack Developer · React · Node.js </span>
     </footer>
 
     <script src="script.js"></script>
